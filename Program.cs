@@ -7,7 +7,7 @@
         int input;
         do
         {
-            Console.WriteLine("Errate die Zahl");
+            Console.WriteLine("Errate die Zahl zwischen 1 und 100.");
             input = Convert.ToInt32(Console.ReadLine());
 
             if (input < random)
